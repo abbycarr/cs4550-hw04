@@ -5,13 +5,14 @@ Please fill in answers to the questions below:
 Abby Carr
 
 2. What hostname did you deploy your app to?
-hw04.clipturtle.com
+www.clipturtle.com
 
 3. What's the URL of your git for this assignment?
 https://github.com/abbycarr/cs4550-hw04
 
 4. How much of the functionality did you complete?
-All
+All except for some of the calculator logic. My postfix notation and conversion
+to an answer is not perfect.
 
 5. Did you successfully deploy? If not, what's broken?
 Yes
@@ -21,7 +22,7 @@ Not super comfortable still, I feel rusty with functional programming
 
 7. Which parts of this assignment did you have trouble with, if any?
 It was difficult to understand exactly what I had to fix, but the TODOs were helpful
-
+Calculator logic
 
 
 And here's a list of tasks for grading comments. Just leave this here:

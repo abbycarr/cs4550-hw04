@@ -4,6 +4,6 @@
     <h2>Factor Results</h2>
 
     <p>x = <%= @x %></p>
-    <%= render_many @y, UserView, "show.html" %>
+    <p>Factorization: <%= inspect @y %></p>
   </div>
 </div>
