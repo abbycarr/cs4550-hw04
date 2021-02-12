@@ -17,9 +17,13 @@ defmodule Practice do
   end
 
   def factor(x) do
-    # Maybe delegate this too.
+    # Deligated!
     Practice.Factor.factor(x)
   end
 
-  # TODO: Add a palindrome? function.
+  def palindrome?(w) do
+    # Deligated!
+    Practice.Pal.palindrome?(w)
+  end
+  
 end
