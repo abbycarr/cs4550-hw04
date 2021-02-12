@@ -18,13 +18,13 @@ defmodule Practice.PracticeTest do
   end
 
   test "evaluate some expressions" do
-    # assert calc("5") == 5
-    # assert calc("5 + 1") == 6
-    # assert calc("5 * 3") == 15
-    # assert calc("10 / 2") == 5
-    # assert calc("10 - 2") == 8
-    # assert calc("5 * 3 + 8") == 23
-    assert calc("8 5 3") == 23
+    assert calc("5") == 5
+    assert calc("5 + 1") == 6
+    assert calc("5 * 3") == 15
+    assert calc("10 / 2") == 5
+    assert calc("10 - 2") == 8
+    assert calc("5 * 3 + 8") == 23
+    assert calc("8 + 5 * 3") == 23
   end
 
   test "palidrome tests" do

@@ -2,7 +2,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name hw04.clipturtle.com clipturtle.com;
+    server_name hw04.clipturtle.com;
 
     location / {
         proxy_pass http://localhost:4790;

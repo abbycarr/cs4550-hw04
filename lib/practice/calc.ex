@@ -1,18 +1,18 @@
 defmodule Practice.Calc do
-  def add(list) do
-    (for n <- list, do: to_int(n)) |> Enum.sum
-  end
+  def eval(list) do
+    cond do 
+      list.length == 1 ->
+        list |> hd
+      # list.lenght > 1 ->
+      end
+    end
 
-  def sub(list) 
-    (for n <- list, do: to_int(n)) |> Enum.sum
-  end
   def calc(expr) do
     # This should handle +,-,*,/ with order of operations,
     # but doesn't need to handle parens.
 
     expr
     |> String.split(~r/\s+/)
-    |> add
 
     # Hint:
     # expr
