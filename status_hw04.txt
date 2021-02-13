@@ -15,7 +15,7 @@ All except for some of the calculator logic. My postfix notation and conversion
 to an answer is not perfect.
 
 5. Did you successfully deploy? If not, what's broken?
-Yes
+No. I'm getting a 502 broken gate trying to view the site and could not resolve my issues after attempting to work on Deployment for 4+ hours.
 
 6. How comfortable do you feel with Elixir now?
 Not super comfortable still, I feel rusty with functional programming
@@ -23,6 +23,7 @@ Not super comfortable still, I feel rusty with functional programming
 7. Which parts of this assignment did you have trouble with, if any?
 It was difficult to understand exactly what I had to fix, but the TODOs were helpful
 Calculator logic
+Deployment!
 
 
 And here's a list of tasks for grading comments. Just leave this here:
